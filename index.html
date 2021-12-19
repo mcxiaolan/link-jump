@@ -19,7 +19,7 @@
             }
             return(false);
         }
-        var url = getQueryVariable("url");
+        var url = decodeURIComponent(getQueryVariable("url"));
     </script>
     <style>
         body,
